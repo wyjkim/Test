@@ -9,6 +9,6 @@ import matplotlib.pyplot as plt
 
 traffic=pd.DataFrame(pd.read_csv('DD.csv'))
 
-plt.hist(traffic['END_DATE'])
+plt.hist(traffic['zinc_copper'])
 
 plt.show()
