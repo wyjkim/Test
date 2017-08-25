@@ -12,3 +12,6 @@ traffic=pd.DataFrame(pd.read_csv('DD.csv'))
 plt.hist(traffic['LOG_ID'])
 
 plt.show()
+  
+  
+  #统计认证人数，绘图
