@@ -13,4 +13,6 @@ print(IsDuplicated)
 print( type(IsDuplicated))
 
 data = data.drop_duplicates()
+   
+  #去除机器型号重复的项
 
