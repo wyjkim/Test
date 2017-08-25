@@ -1,0 +1,30 @@
+import pandas
+
+food_info = pandas.read_csv("DD.csv")
+columns = ["START_DATE", "END_DATE"]
+zinc_copper = food_info[columns]
+print(zinc_copper)
+
+
+=========================================
+import pandas as pd
+df = pd.read_csv("DD.csv")
+pd.DataFrame(df,columns = ['START_DATE','END_DATE'])
+df['START_DATE_END'] = df['START_DATE']-df['END_DATE']
+df
+
+===================================================
+import pandas as pd
+
+import numpy as np
+
+
+import matplotlib as mpl
+
+import matplotlib.pyplot as plt
+
+traffic=pd.DataFrame(pd.read_csv('DD.csv'))
+
+plt.hist(traffic['END_DATE'])
+
+plt.show()
